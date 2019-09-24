@@ -10,7 +10,7 @@ data "aws_ami_ids" "ami" {
 
   filter {
     name   = "name"
-    values = ["amzn-ami-hvm-2017*-gp2"]
+    values = ["ubuntu/images/hvm-ssd/ubuntu-bionic-18.04*-gp2"]
   }
 }
 
