@@ -6,11 +6,11 @@ data "aws_region" "current" {
 }
 
 data "aws_ami_ids" "ami" {
-  owners = ["amazon"]
+  owners = ["099720109477"]
 
   filter {
     name   = "name"
-    values = ["ubuntu/images/hvm-ssd/ubuntu-bionic-18.04*-gp2"]
+    values = ["ubuntu/images/hvm-ssd/ubuntu-bionic-18.04*"]
   }
 }
 
